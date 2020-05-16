@@ -6,6 +6,11 @@ build/
 node_modules/
 platforms/ios/
 platforms/android
-plugins/
+platforms/osx
 package-lock.json
 hooks/
+plugins/*
+!plugins/fetch.json
+!plugins/ios.json
+!plugins/android.json
+!plugins/osx.json
