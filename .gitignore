@@ -14,10 +14,10 @@ plugins/
 !plugins/ios.json
 !plugins/android.json
 !plugins/osx.json
-platforms/
-!platforms/ios/ios.json
-!platforms/ios/.gitigonre
-!platforms/android/android.json
-!platforms/android/.gitigonre
-!platforms/osx/osx.json
-!platforms/osx/.gitigonre
+#platforms/
+#!platforms/ios/ios.json
+#!platforms/ios/.gitigonre
+#!platforms/android/android.json
+#!platforms/android/.gitigonre
+#!platforms/osx/osx.json
+#!platforms/osx/.gitigonre
