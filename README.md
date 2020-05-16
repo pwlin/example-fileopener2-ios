@@ -1,5 +1,5 @@
 # example-fileopener2-ios
-Fileopener2 examples / iOS
+[Cordova Plug FileOpener2](https://github.com/pwlin/cordova-plugin-file-opener2) examples / iOS
 
 # How to run
 - `git clone https://github.com/pwlin/example-fileopener2-ios/`
