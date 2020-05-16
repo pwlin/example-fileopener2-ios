@@ -9,12 +9,15 @@ platforms/android
 platforms/osx
 package-lock.json
 hooks/
-plugins/*
+plugins/
 !plugins/fetch.json
 !plugins/ios.json
 !plugins/android.json
 !plugins/osx.json
-platforms/*
+platforms/
 !platforms/ios/ios.json
+!platforms/ios/.gitigonre
 !platforms/android/android.json
+!platforms/android/.gitigonre
 !platforms/osx/osx.json
+!platforms/osx/.gitigonre
