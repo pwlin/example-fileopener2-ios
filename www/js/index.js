@@ -29,7 +29,11 @@ var app = {
     onDeviceReady: function() {
         document.getElementById('btn-open-image').onclick = function() {
             app.openImage();
-        }
+        };
+
+        document.getElementById('btn-exit-app').onclick = function() {
+            navigator.app.exitApp();
+        };
     },
     
 openImage: function() {

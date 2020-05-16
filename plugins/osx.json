@@ -1,0 +1,16 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-file": {},
+    "cordova-plugin-file-opener2": {},
+    "cordova-plugin-whitelist": {},
+    "cordova.custom.plugins.exitapp": {}
+  },
+  "dependent_plugins": {}
+}
