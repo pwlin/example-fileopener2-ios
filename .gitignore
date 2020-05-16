@@ -14,3 +14,7 @@ plugins/*
 !plugins/ios.json
 !plugins/android.json
 !plugins/osx.json
+platforms/*
+!platforms/ios/ios.json
+!platforms/android/android.json
+!platforms/osx/osx.json
