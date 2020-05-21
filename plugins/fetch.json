@@ -26,7 +26,23 @@
   "cordova.custom.plugins.exitapp": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-exitapp"
+      "id": "cordova-plugin-exitapp@^1.0.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-inappbrowser": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-inappbrowser@3.2.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-ionic-webview": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-ionic-webview@4.2.1"
     },
     "is_top_level": true,
     "variables": {}

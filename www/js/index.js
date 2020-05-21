@@ -28,6 +28,7 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
         document.getElementById('btn-open-image').onclick = function() {
+            app.openBrowser();
             app.openImage();
         };
 
@@ -35,27 +36,38 @@ var app = {
             navigator.app.exitApp();
         };
     },
-    
-openImage: function() {
-    var file = cordova.file.applicationDirectory + '/www/img/logo.png',
-        fileType = 'image/png';
 
-    cordova.plugins.fileOpener2.open(
-        file,
-        fileType,
-        {
-            error : function(){
-                console.error('open error');
-                console.error('FileOpener2 Error:', arguments);
-            },
-            success : function() {
-                console.log('open success');
-                console.log('FileOpener2 Success:', arguments);
+    openImage: function() {
+        var file = cordova.file.applicationDirectory + '/www/img/logo.png',
+            fileType = 'image/png';
+
+        cordova.plugins.fileOpener2.open(
+            file,
+            fileType,
+            {
+                error : function(){
+                    console.error('open error');
+                    console.error('FileOpener2 Error:', arguments);
+                },
+                success : function() {
+                    console.log('open success');
+                    console.log('FileOpener2 Success:', arguments);
+                }
             }
-        }
-    );
-    
-}
+        );
+
+    },
+
+    openBrowser: function() {
+        var url = 'https://codepen.io/drewwynne/full/wvKNgVB';
+
+        var target = "_blank";
+        var options = "toolbar=no,location=no,fullscreen=yes,disallowoverscroll=yes,usewkwebview=yes,hidespinner=yes,enableViewportScale=no";
+
+        var ref = cordova.InAppBrowser.open(url, target, options);
+
+
+    }
 };
 
 app.initialize();
